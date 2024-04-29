@@ -1,0 +1,127 @@
+.footer-blog {
+    background-color: var(--titleColor);
+}
+
+.footer-address {
+    display: block;
+    color: var(--menuColor);
+    margin: 0 auto;
+    text-align: center;
+    margin: 14px 0;
+}
+
+
+.footer-address .location-dot {
+    font-size: 26px;
+    margin-top: 14px;
+    transition: all .4s ease-in-out;
+}
+
+.footer-address:hover .location-dot {
+    transform: rotateY(-180deg);
+    color: var(--aboutBg);
+}
+
+.address-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    margin: 13px 0;
+}
+
+.first-address {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13.8px;
+    text-align: center;
+    display: block;
+    color: var(--menuColor);
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.first-address:hover {
+    color: var(--menuColor);
+    transform: scale(1.09);
+}
+
+.address {
+    display: block;
+    color: var(--menuColor);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+
+.address:hover {
+    text-decoration: none;
+    color: var(--menuColor);
+    transform: scale(1.09);
+}
+
+.footer-hr {
+    border-bottom: 0.5px solid var(--menuColor);
+    width: 100%;
+}
+
+.copyright {
+    height: 45px;
+    line-height: 45px;
+}
+
+.copyright-text {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--menuColor);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copyright-link {
+    color: var(--menuColor);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copyright-link:hover {
+    color: var(--menuColor);
+}
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .copyright {
+        height: auto;
+        /* line-height: 25px; */
+    }
+}
+
+
+@media screen and (max-width: 576px) and (min-width: 320px) {
+    .copyright {
+        height: auto;
+        /* line-height: 25px; */
+    }
+
+    .footer-address .location-dot {
+        font-size: 20px;
+    }
+
+    .address-title {
+        font-size: 16px;
+    }
+
+    .footer-address {
+        margin: 0;
+    }
+
+    .copyright-text {
+        font-size: 14px;
+    }
+
+    .copyright-link {
+        font-size: 14px;
+    }
+}

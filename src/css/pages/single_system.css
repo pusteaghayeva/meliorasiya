@@ -1,0 +1,94 @@
+/* About */
+.about-section {
+    margin: 70px 0;
+    box-sizing: border-box;
+}
+.about-section-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--titleColor);
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section-content {
+    color: #4D4D4D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 36px;
+}
+
+
+
+.left-side:hover {
+    transform: scale(1.02);
+    transition: all ease .2s;
+    transform: scale(1.02) rotate(3deg);
+}
+
+.left-side {
+    float: left;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+
+.left-side:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out .2s;
+}
+
+.right-side {
+    float: left;
+    width: 50%;
+    padding: 1%;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-about {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px;
+}
+
+
+
+
+.owl-carousel .owl-item img:hover {
+    display: block;
+    transform: scale(1.02);
+    transition: all ease .2s;
+}
+
+@media (min-width: 992px) {
+
+    .nav-tabs .nav-link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .about-section{
+        margin: 25px 0;
+    }
+
+    .about-section-title {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .left-side{
+        width: auto;
+        height: auto;
+    }
+
+}

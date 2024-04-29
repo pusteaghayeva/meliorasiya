@@ -1,0 +1,121 @@
+.news-blog-main {
+    margin: 30px 0 60px;
+}
+
+.in-page-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--titleColor);
+    text-align: center;
+}
+
+.news-blog {
+    margin: 25px 0;
+}
+
+.news-parent-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.news-blog-img {
+    width: 352px;
+    height: 268px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.news-parent-img:hover .news-blog-img {
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+}
+
+.news-blog-img:hover {
+    transform: var(--transformEffect);
+    filter: brightness(1.05);
+
+}
+
+
+.news-parent-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.news-parent-img:hover .news-blog-img {
+    transform: scale(1.1);
+    transition: transform 0.2s linear;
+}
+
+
+.news-date {
+    color: #6D6D6D;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.news-blog-content {
+    display: block;
+    font-weight: 600;
+    line-height: 26px;
+    height: 80px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+    color: var(--titleColor);
+}
+
+.news-blog-content:hover {
+    color: var(--titleColor);
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 1200px) and (min-width:768px) {
+
+    .news-blog-img {
+        width: 300px;
+        height: 228px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .news-blog {
+        margin: 25px auto
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:576px) {
+
+    .news-blog-img {
+        width: 320px;
+        height: 228px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .news-blog-content {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width:320px) {
+    .news-blog {
+        margin: 25px auto
+    }
+
+    .news-blog-img {
+        width: 300px;
+        height: 228px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .news-blog-content {
+        height: auto;
+    }
+}
